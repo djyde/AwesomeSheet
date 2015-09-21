@@ -2,6 +2,8 @@
 
 Frontend UIActionSheet
 
+![](http://ww3.sinaimg.cn/large/62580dd9gw1ewa8c6kiu3g208q0el0tr.gif)
+
 # Install
 
 ```shell
@@ -33,3 +35,11 @@ HTML:
   </div>
 </div>
 ```
+
+# Customize
+
+You can edit `lib/Awesome.css` `lib/Awesome.scss` or write your own stylesheet file to overwrite default style.
+
+# License
+
+MIT License
