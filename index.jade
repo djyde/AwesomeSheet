@@ -1,0 +1,26 @@
+doctype html
+html
+  head
+    meta(name='viewport', content='width=device-width, initial-scale=1.0, user-scalable=yes')
+    title AwesomeSheet Demo
+    link(rel="stylesheet", type="text/css", href="lib/AwesomeSheet.css")
+    style.
+      #awesome-sheet .sheet .item{
+        text-align: center;
+      }
+  body
+    h1 AwesomeSheet
+    button#show show
+    #awesome-sheet
+      .sheet
+        .item sheet 1
+        .item sheet 1
+        .item sheet 1
+        .item(onClick="as.hide();") hide
+    script(type="application/javascript", src="lib/AwesomeSheet.js")
+    script(type="application/javascript", src="demo/demo.js")
+    script.
+      var as = new AwesomeSheet();
+      document.querySelector('#show').addEventListener('click', function(){
+        as.show();
+      })

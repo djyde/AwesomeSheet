@@ -1,0 +1,6 @@
+<!DOCTYPE html><html><head><meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes"><title>AwesomeSheet Demo</title><link rel="stylesheet" type="text/css" href="lib/AwesomeSheet.css"><style>#awesome-sheet .sheet .item{
+  text-align: center;
+}</style></head><body><h1>AwesomeSheet</h1><button id="show">show</button><div id="awesome-sheet"><div class="sheet"><div class="item">sheet 1</div><div class="item">sheet 1</div><div class="item">sheet 1</div><div onClick="as.hide();" class="item">hide</div></div></div><script type="application/javascript" src="lib/AwesomeSheet.js"></script><script type="application/javascript" src="demo/demo.js"></script><script>var as = new AwesomeSheet();
+document.querySelector('#show').addEventListener('click', function(){
+  as.show();
+})</script></body></html>

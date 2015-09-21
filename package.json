@@ -1,0 +1,12 @@
+{
+  "name": "awesomesheet",
+  "version": "0.1.0",
+  "description": "",
+  "main": "AwersomeSheet.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "jade -w *.jade"
+  },
+  "author": "Randy Lu <randypriv@gmail.com>",
+  "license": "MIT"
+}
