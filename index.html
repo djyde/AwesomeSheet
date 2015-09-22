@@ -24,7 +24,9 @@
     <script type="application/javascript" src="lib/AwesomeSheet.js"></script>
     <script type="application/javascript" src="demo/demo.js"></script>
     <script>
-      var as = new AwesomeSheet();
+      var as = new AwesomeSheet({
+        touchDismiss: false
+      });
       document.querySelector('#show').addEventListener('click', function(){
         as.show();
       })
