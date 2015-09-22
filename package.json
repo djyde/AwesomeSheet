@@ -1,8 +1,8 @@
 {
   "name": "awesomesheet",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "",
-  "main": "AwersomeSheet.js",
+  "main": "lib/AwersomeSheet.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "jade -w *.jade"
